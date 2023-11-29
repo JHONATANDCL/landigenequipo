@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(productos/banner.webp);
+    background-size: cover;
+    background-position: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenido {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.slogan {
+    text-align: center;
+}
+
+.slogan h1,
+.slogan p {
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.slogan h1 {
+    font-size: 28px; /* Tamaño diferente para h1 */
+}
+
+.slogan p {
+    font-size: 18px; /* Tamaño diferente para p */
+    margin-top: 70px; /* Espacio entre h1 y p */
+}

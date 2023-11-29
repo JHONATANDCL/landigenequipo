@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLETO STORE</title>
+    <link rel="stylesheet" href="iphone.css">
+</head>
+<body>
+    <header>
+        <h1>COLETO STORE</h1>
+        <img src="productos/logo insano.png" alt="" srcset="" id="ip">
+    </header>
+    <div class="container">
+     <nav>
+        <ul>
+            <li><a href="iphone.html">HOME</a></li>
+            <li><a href="funda.html">FUNDAS</a></li>
+            <li><a href="cargador.html">CARGADORES</a></li>
+            <li><a href="audifonos.html">AUDIFONOS</a></li>
+        </ul>
+     </nav>
+    </div> 
+    <div class="product-container" id="product-cargador"> 
+        <div class="product">
+            <img src="productos/cargador 1.png" alt="cargador" class="cargador">
+            <h2>cargador</h2>
+            <p class="description">cargador</p>
+            <p class="price">$250</p>
+            <button class="buy-button" onclick="showProductDetails(1)">COMPRAR</button>
+        </div>
+        <div class="product">
+            <img src="productos/cargador 2.png" alt="cargador" class="cargador">
+            <h2>cargador</h2>
+            <p class="description">cargador</p>
+            <p class="price">$250</p>
+            <button class="buy-button" onclick="showProductDetails(2)">COMPRAR</button>
+        </div>
+        <div class="product">
+            <img src="productos/cargador 3.jpg" alt="cargador" class="cargador">
+            <h2>cargador</h2>
+            <p class="description">cargador</p>
+            <p class="price">$250</p>
+            <button class="buy-button" onclick="showProductDetails(3, cargador)">COMPRAR</button>
+        </div>
+        <div class="product">
+            <img src="productos/cargador 4.webp" alt="cargador" class="cargador">
+            <h2>cargador</h2>
+            <p class="description">cargador</p>
+            <p class="price">$250</p>
+            <button class="buy-button" onclick="showProductDetails(4, )">COMPRAR</button>
+        </div>
+        <div class="product">
+            <img src="productos/cargador 5.png" alt="cargador" class="cargador">
+            <h2>cargador</h2>
+            <p class="description">cargador</p>
+            <p class="price">$250</p>
+            <button class="buy-button" onclick="showProductDetails(5, cargador)">COMPRAR</button>
+        </div>
+        <div class="product">
+            <img src="productos/cargador 6.png" alt="cargador" class="cargador">
+            <h2>cargador</h2>
+            <p class="description">Cargador</p>
+            <p class="price">$250</p>
+            <button class="buy-button" onclick="showProductDetails(6, cargador)">COMPRAR</button>
+        </div>
+    </div>
+    <div id="buy-success-message">¡Producto comprado con éxito!</div> 
+    <footer>
+        © 2023 Productos originales de iPhone
+    </footer>
+    <script src="iphone.js"></script>
+</body>
+</html>

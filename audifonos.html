@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLETO STORE</title>
+    <link rel="stylesheet" href="iphone.css">
+</head>
+<body>
+    <header>
+        <h1>COLETO STORE</h1>
+        <img src="productos/logo insano.png" alt="" srcset="" id="ip">
+    </header>
+    <div class="container">
+        <nav>
+           <ul>
+               <li><a href="iphone.html">HOME</a></li>
+               <li><a href="funda.html">FUNDAS</a></li>
+               <li><a href="cargador.html">CARGADORES</a></li>
+               <li><a href="audifonos.html">AUDIFONOS</a></li>
+           </ul>
+        </nav>
+       </div>  
+    <div class="product-container" id="product-audifonos">
+        <div class="product">
+            <img src="productos/audifonos 1.webp" alt="audifonos" class="audifonos">
+            <h2>Audifonos</h2>
+            <p class="description">Audifonos</p>
+            <p class="price">$300</p>
+            <button class="buy-button" onclick="showProductDetails(1)">COMPRAR</button>
+        </div>
+        <div class="product">
+            <img src="productos/audifonos 2.webp" alt="audifonos" class="audifonos">
+            <h2>Audifonos</h2>
+            <p class="description">Audifonos</p>
+            <p class="price">$350</p>
+            <button class="buy-button" onclick="showProductDetails(2)">COMPRAR</button>
+        </div>
+        <div class="product">
+            <img src="productos/audifonos 3.jpg" alt="audifonos" class="audifonos">
+            <h2>Audifonos</h2>
+            <p class="description">Audifonos</p>
+            <p class="price">$400</p>
+            <button class="buy-button" onclick="showProductDetails(3)">COMPRAR</button>
+        </div>
+        <div class="product">
+            <img src="productos/audifonos 4.webp" alt="audifonos" class="audifonos">
+            <h2>Audifonos</h2>
+            <p class="description">Audifonos</p>
+            <p class="price">$400</p>
+            <button class="buy-button" onclick="showProductDetails(4)">COMPRAR</button>
+        </div>
+    <div class="product-details" id="product-details">
+        <h2>Detalles del Producto</h2>
+        <p id="product-description">Descripción detallada del producto.</p>
+        <button class="close-button" onclick="closeProductDetails()">Cerrar</button>
+    </div>
+    </div>
+    <div id="buy-success-message">¡Producto comprado con éxito!</div> 
+    <footer>
+        © 2023 Productos originales de iPhone
+    </footer>
+    <script src="iphone.js"></script>
+</body>
+</html>
